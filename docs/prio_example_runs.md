@@ -54,8 +54,8 @@ This means that if you want to keep the results of a search, the file must be re
 
 1. Do a Pdf-search, producing tmp.csv.
 2. Rename the initial file to ceasefire.csv
-3. Do a Simple_Csv run targeting ceasefire.csv using the regex string `initiated`, and renaming the result initiated.csv
-4. Do a Simple_Csv run targeting ceasefire.csv using the regex string `ended`, and renaming the result ended.csv
+3. Do a Simple_Csv run targeting `/home/coder/Desktop/ceasefire.csv` using the regex string `initiated`, and renaming the result initiated.csv
+4. Do a Simple_Csv run targeting `/home/coder/Desktop/ceasefire.csv` using the regex string `ended`, and renaming the result ended.csv
 
 Now i have three files, containing all of my results; a file containing all entries mentioning ceasefire, a file containing entries containing both ceasefire _and_ initiated, and a file containing entries containing both ceasefire _and_ initiated.
 
