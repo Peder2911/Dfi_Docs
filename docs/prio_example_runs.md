@@ -59,6 +59,8 @@ This means that if you want to keep the results of a search, the file must be re
 
 Now i have three files, containing all of my results; a file containing all entries mentioning ceasefire, a file containing entries containing both ceasefire _and_ initiated, and a file containing entries containing both ceasefire _and_ initiated.
 
+## Keep and Discard
 
+:scissors: The Entrap_Met_Star module allows for negative (_discard_) and positive (_keep_) searches. Combining successive negative and positive searches might be a very useful strategy; for example first extracting all articles not mentioning something (discard), then searching within those articles for mentions of something else (keep).
 
   

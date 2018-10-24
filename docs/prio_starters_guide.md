@@ -44,6 +44,8 @@ Follow these steps perform a simple filtering of Factiva-Pdf documents, either o
    The regex filtering script Ems requires two configuration steps. First, you must choose whether to search in the headline or body of each article. If you chose to use the sentence splitter earlier, “body” means sentence.
    Next you must enter a regex pattern to use for searching. Regex (Regular Expressions) is a very poweful search tool with many applications. A very useful site when working with Regex is [regex101](https://regex101.com/), which lets you test patterns before applying them. For a concise introduction to regex, see [this tutorial from O'reilly](https://www.oreilly.com/ideas/an-introduction-to-regular-expressions).
 
+   You must also choose whether to _keep_ matches, or _discard_ matches. This means that you can do a negative or positive search; either keeping all entries matching your pattern (searching), or discarding all entries matching your pattern (filtering).
+
 9. :clock1: Wait
 
    The program will take a moment to execute, depending on the scope of your search.
